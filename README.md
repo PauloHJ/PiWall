@@ -1,5 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to my PiWall Guide
 
+This tutorial has the intention of walking you through the necessary steps to successfully configure your PiWall, also known as a multiscreen application with Raspberry Pis. It´s important to point out that this tutorial is based on the [PiWall](https://piwall.co.uk/) proyect developed by Alex Goodyear, Colin Hogben & Dr. Adam Stephen.
 You can use the [editor on GitHub](https://github.com/PauloHJ/piwall/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
