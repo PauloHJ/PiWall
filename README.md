@@ -30,8 +30,9 @@ The hardware require
 - Wireless router
 - Ethernet cable
 
-* For example, if your PiWall is 3x3 screens, then you'll need 1 RaspberryPi for each, plus 1 more for the master. 10 Raspberry Pi in total 
-^ 1 needed for each Raspberry Pi
+*For example, if your PiWall is 3x3 screens, then you'll need 1 RaspberryPi for each, plus 1 more for the master. 10 Raspberry Pi in total 
+
+^1 needed for each Raspberry Pi
 
 **SOFTWARE**
 
