@@ -1,8 +1,8 @@
-## Welcome to my PiWall Guide
+## PiWall - Configuration Guide
 
 This tutorial has the intention of walking you through the necessary steps to successfully configure your PiWall, also known as a multiscreen application with Raspberry Pis. It's important to point out that this tutorial is based on the [PiWall](https://piwall.co.uk/) proyect developed by Alex Goodyear, Colin Hogben & Dr. Adam Stephen.
 
-This simple guide is divided in 5 main sections:
+This simple guide is divided in 4 main sections:
 - Materials needed
 - Configuration
 - Hardware Connections
@@ -13,6 +13,8 @@ You can use the [editor on GitHub](https://github.com/PauloHJ/piwall/edit/master
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+# Markdown
+## Markdown
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
