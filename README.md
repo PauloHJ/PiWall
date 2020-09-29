@@ -24,8 +24,8 @@ In order to build a PiWall some materials are required. It's important to point 
 
 - Raspberry Pi 3 Model B (1 master + _n_ tiles)*
     For each Raspberry:
-        - Micro USB B Power Supply (2.5 A, 5.1 V)
-        - Micro SD card (> 2 GB)
+  - Micro USB B Power Supply (2.5 A, 5.1 V)
+  - Micro SD card (> 2 GB)
 - Screens
 - HDMI Cable (1 x _n_ screen)
 - Wireless router
