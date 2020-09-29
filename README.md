@@ -46,4 +46,4 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 ## Contact
 
-Please, if you have any trouble while configuring your PiWall, I´ll be glad to help, if possible. Don't hesitate to contact me at [paulo_hdez@outlook.com](mailto:paulo_hdez@outlook.com). 
+Please, if you have any trouble while configuring your PiWall, I´ll be glad to help, if possible. Don't hesitate to contact me at my [email](mailto:paulo_hdez@outlook.com), paulo_hdez@outlook.com. 
