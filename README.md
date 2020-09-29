@@ -21,17 +21,17 @@ In this way, a PiWall must have a master computer/Raspberry Pi that is in charge
 In order to build a PiWall some materials are required. It's important to point out that this guide describes the materials I used. However, it's possible to use different resources that provide the same or even better solution to the one stated in this guide. 
 
 **HARDWARE**
-
+The hardware require
 - Raspberry Pi 3 Model B (1 master + _n_ tiles)*
-
-  For each Raspberry:
-  - Micro USB B Power Supply (2.5 A, 5.1 V)
-  - Micro SD card (> 2 GB)
+  - Micro USB B Power Supply (2.5 A, 5.1 V)^
+  - Micro SD card (> 2 GB)^
 - Screens
 - HDMI Cable (1 x _n_ screen)
 - Wireless router
+- Ethernet cable
 
-*For example, if your PiWall is 3x3 screens, then you'll need 1 RaspberryPi for each, plus 1 more for the master. 10 Raspberry Pi in total 
+* For example, if your PiWall is 3x3 screens, then you'll need 1 RaspberryPi for each, plus 1 more for the master. 10 Raspberry Pi in total 
+^ 1 needed for each Raspberry Pi
 
 **SOFTWARE**
 
