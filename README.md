@@ -22,13 +22,13 @@ In order to build a PiWall some materials are required. It's important to point 
 
 **HARDWARE**
 
--Raspberry Pi 3 Model B (1 master + _n_ tiles)*
--For each Raspberry:
--Micro USB B Power Supply (2.5 A, 5.1 V)
--Micro SD card (> 2 GB)
--Screens
--HDMI Cable (1 x _n_ screen)
--Wireless router
+- Raspberry Pi 3 Model B (1 master + _n_ tiles)*
+    For each Raspberry:
+        - Micro USB B Power Supply (2.5 A, 5.1 V)
+        - Micro SD card (> 2 GB)
+- Screens
+- HDMI Cable (1 x _n_ screen)
+- Wireless router
 
 *For example, if your PiWall is 3x3 screens, then you'll need 1 RaspberryPi for each, plus 1 more for the master. 10 Raspberry Pi in total 
 
