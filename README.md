@@ -9,19 +9,29 @@ This simple guide is divided in 4 main sections:
 - Displaying on screen
 
 ## Overview
-
-PiWall is a smart solution developed in 2013 to configure a video wall. According to the Collins English Dictionary, a video wall can be defined as "multiple computer monitors, video projectors, or television sets tiled together contiguously or overlapped in order to form one large screen".
+PiWall is a smart solution developed in 2013 to configure a video wall. According to the Collins English Dictionary, a video wall can be defined as 
+>multiple computer monitors, video projectors, or television sets tiled together contiguously or overlapped in order to form one large screen".
 
 ![Video wall example](https://hackaday.com/wp-content/uploads/2013/07/rpi-video-wall.png?w=876&h=522)
 
-
 In this way, a PiWall must have a master computer/Raspberry Pi that is in charge of storing and distributing the video signal across the tiles of the video wall. Each tile has the job of displaying a part of the picture in its assigned screen. At the end, all the tiles together form a wall with a unique video playing.
-
 
 ## Materials
 
-In order to 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+In order to build a PiWall some materials are required. It's important to point out that this guide describes the materials I used. However, it's possible to use different resources that provide the same or even better solution to the one stated in this guide. 
+
+**HARDWARE**
+-Raspberry Pi 3 Model B (1 master + _n_ tiles)*
+    For each Raspberry:
+        -Micro USB B Power Supply (2.5 A, 5.1 V)
+        -Micro SD card (> 2 GB)
+-Screens
+-HDMI Cable (1 x _n_ screen)
+-Wireless router
+
+*For example, if your PiWall is 3x3 screens, then you'll need 1 RaspberryPi for each, plus 1 more for the master. 10 Raspberry Pi in total 
+**SOFTWARE**
+
 
 ```markdown
 Syntax highlighted code block
@@ -43,6 +53,7 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
+## WrapUp
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
