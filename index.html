@@ -40,12 +40,135 @@
 							Goodyear, Colin Hogben & Dr. Adam Stephen.
 						</p>
 						<p style="text-align:right;">
-							<strong><u>NOTE:</u></strong> This guide shows the materials, steps and configurations that worked for me.
-							However, it's possible to use different resources that provide the same or 
-							even a better solution to the one stated in this guide
+							<strong><u>NOTE:</u></strong> This guide shows the materials, steps and 
+							configurations that worked for me. However, it's possible to use different
+							resources that provide the same or even a better solution to the one stated in this guide
 						</p>
 					</section>
 				<!-- Two -->
+					<section id="Two">
+						<h2>OVERVIEW</h2>
+						<p style="text-align:justify">
+							PiWall is a smart solution developed in 2013 to configure a video wall. 
+							According to the Collins English Dictionary, a video wall can be defined as:							
+						</p>
+						<blockquote>
+								multiple computer monitors, video projectors, or television sets tiled together 
+								contiguously or overlapped in order to form one large screen.
+						</blockquote>
+						<p style="text-align:justify">
+							In this way, a PiWall must have a master computer/Raspberry Pi that is in charge of 
+							storing and distributing the video signal across the tiles of the video wall. Each 
+							tile has the job of displaying a part of the picture in its assigned screen. At the 
+							end, all the tiles together form a wall with a unique video playing.
+						</p>
+						<div class="row">
+							<div class="col-3"></div>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="https://hackaday.com/2013/07/22/multiple-raspberry-pi-boards-used-to-create-video-wall/" class="image fit thumb"></a><img src="https://hackaday.com/wp-content/uploads/2013/07/rpi-video-wall.png?w=400" alt="" /></a>
+								<h3 style="text-align:right">© Hackaday, 2013</h3>
+							</article>
+							<div class="col-3"></div>
+						</div>
+						<h2>NEEDED MATERIALS</h2>
+						<p style="text-align:justify">
+							In order to make the PiWall described in this guide, some materials are needed. These
+							materials are presented next: 
+						</p>
+						<div class="table-wrapper">
+							<table class="alt">
+								<thead>
+									<tr>
+										<th>Name</th>
+										<th>Quantity</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Raspberry Pi 3 Model B</td>
+										<td>(1 master + n tiles)</td>
+									</tr>
+									<tr>
+										<td>Micro USB B Power Supply (2.5 A, 5.1 V)</td>
+										<td>1 for each Raspberry Pi</td>
+									</tr>
+									<tr>
+										<td>Micro SD card (> 2 GB)</td>
+										<td>1 for each Raspberry Pi</td>
+									</tr>
+									<tr>
+										<td>Screens</td>
+										<td>Desired number of screens, 1 screen = 1 tile</td>
+									</tr>
+									<tr>
+										<td>HDMI Cable</td>
+										<td>1 for each screen</td>
+									</tr>
+									<tr>
+										<td>Router °</td>
+										<td>Only 1, can be wireless</td>
+									</tr>
+									<tr>
+										<td>Ethernet Crossover Cable</td>
+										<td>Only 1, for RaspberryPi connectivity</td>
+									</tr>
+								</tbody>
+							</table>								
+							<p style="text-align:right">
+								<i>
+									° In this case, a wireless router was used. However, this depends on the amount
+									 of screens to be deployed. If a big amount is considered, then switch to a
+									  wired router. As well, if this is the case, then the amount of Ethernet 
+									  Crossover cables will higher as well.
+								</i>
+							</p>
+						</div>
+					<h2>COMPLEMENTARY SOFTWARE</h2>
+					<p style="text-align:justify">
+						Before starting, it´s suggested to download certain software, which will facilitate the configuration
+						 process for each Raspberry Pi. 
+					</p>
+					<div class="table-wrapper">
+						<table class="alt">
+							<thead>
+								<tr>
+									<th>Name</th>
+									<th>Use</th>
+									<th>Download</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Raspberry Pi Imager</td>
+									<td>(1 master + n tiles)</td>
+									<td>Official<br>GitHub</td>
+								</tr>
+								<tr>
+									<td>PuTTY</td>
+									<td>1 for each Raspberry Pi</td>
+									<td>(1 master + n tiles)</td>
+								</tr>
+								<tr>
+									<td>VNC Viewer °</td>
+									<td>1 for each Raspberry Pi</td>
+									<td>(1 master + n tiles)</td>
+								</tr>
+								<tr>
+									<td>WinSCP</td>
+									<td>Desired number of screens, 1 screen = 1 tile</td>
+									<td>(1 master + n tiles)</td>
+								</tr>
+							</tbody>
+						</table>								
+						<p style="text-align:right">
+							<i>
+								° The RaspberryPi was accessed on a remote way, which will be described later.
+								 If you're considering accessing it through the USB ports, then you'll
+								  also need a monitor to display the GUI and a mouse. 
+							</i>
+						</p>
+					</div>
+				</section>				
 					<section id="two">
 						<h2>Recent Work</h2>
 						<div class="row">
